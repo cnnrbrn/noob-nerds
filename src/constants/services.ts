@@ -1,0 +1,11 @@
+export const REPO = process.env.REPO;
+export const REPO_OWNER = process.env.REPO_OWNER;
+export const GITHUB_ACCOUNT = process.env.GITHUB_ACCOUNT;
+export const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+export const LOCAL_CONTENT_SERVER_URL = process.env.LOCAL_CONTENT_SERVER_URL;
+export const CONTENT_SERVER_URL = process.env.CONTENT_SERVER_URL;
+export const ALGOLIA_APP_ID = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID ?? "";
+export const ALGOLIA_SEARCH_KEY = process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_KEY ?? "";
+export const ALGOLIA_INDEX = process.env.NEXT_PUBLIC_ALGOLIA_INDEX ?? "";
+export const BASE_CODE_CHECKER_URL = process.env.NEXT_PUBLIC_JS_CODE_CHECKER_API ?? "";
+export const GA_ACCOUNT = process.env.NEXT_PUBLIC_GA_ACCOUNT;
