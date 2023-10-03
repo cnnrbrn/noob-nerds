@@ -11,7 +11,7 @@ interface LinkItemProps {
 	path: string;
 }
 const LinkItems: Array<LinkItemProps> = [
-	{ name: "Search", icon: FiSearch, path: "/search" },
+	// { name: "Search", icon: FiSearch, path: "/search" },
 	{ name: "Introduction to objects", icon: FiSearch, path: "/javascript/objects/introduction/index" },
 ];
 

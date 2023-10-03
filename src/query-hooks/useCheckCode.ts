@@ -24,6 +24,7 @@ export default function useCheckCode(label: string) {
 		retry: false,
 		onSuccess: (data) => queryClient.setQueryData([label], data),
 		onError: (error) => {
+			console.log("error", error);
 			const err = error as Error | AxiosError;
 			gtag.event({ action: CODE_CHECK_ERROR, category: JAVASCRIPT, label, value: err.message });
 		},
